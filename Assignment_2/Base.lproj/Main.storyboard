@@ -253,7 +253,7 @@
                                 <items>
                                     <navigationItem title="Restock" leftItemsSupplementBackButton="YES" id="oiI-R0-2EN">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="a2s-gQ-XaO">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="f4r-sI-eFW">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="f4r-sI-eFW">
                                                 <rect key="frame" x="16" y="11" width="87" height="34.333333333333336"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>

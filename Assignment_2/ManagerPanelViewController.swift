@@ -23,7 +23,7 @@ class ManagerPanelViewController: UIViewController {
     
     
     @IBAction func restockButtonTapped(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "showRestock", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

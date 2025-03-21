@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol RestockViewControllerDelegate: AnyObject {
+    func restockViewController(_ controller: RestockViewController, didUpdateProducts products: [(String, Double, Int)])
+}
+
 class RestockViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
